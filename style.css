@@ -12,6 +12,7 @@ svg {
     background-image: url('./images/time\ pass.png');
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
 }
 
 /* .container::before {
@@ -59,6 +60,7 @@ svg {
 }
 
 .header {
+    position: sticky;
     height: 100vh;
     width: 10%;
     min-width: 50px;
@@ -67,4 +69,7 @@ svg {
     justify-content: center;
     padding-left: 15px;
     gap: 1rem;
+}
+
+.head-data {
 }
