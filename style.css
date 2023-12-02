@@ -250,4 +250,32 @@ body {
 .container3 {
     width: 100%;
     height: 100vh;
+    background-color: red;
+}
+
+.res-cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    background-color: red;
+}
+
+.container4 {
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+}
+
+.container5 {
+    width: 100%;
+    height: 100vh;
+    background-color: purple;
+}
+
+.container6 {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
 }
