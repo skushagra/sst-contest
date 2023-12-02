@@ -277,7 +277,6 @@ body {
 .container6 {
     width: 100%;
     height: 100vh;
-    background-color: aqua;
 }
 
 .cnt {
@@ -289,10 +288,13 @@ body {
 }
 
 .ct-links {
-    background-color: green;
     width: 30%;
     height: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    padding-left: 50px;
 }
 
 .ct-forms {
@@ -303,8 +305,35 @@ body {
 .link-icon {
     width: 30px;
     height: 30px;
-    padding: 20px;
+    margin-right: 10px;
 }
 .link {
     display: flex;
+}
+.link-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background-color: #eaf5fe;
+    padding: 2px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    height: 30px;
+}
+
+.link-text {
+    font-size: 20px;
+    color: #3a4751;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+.link-desc {
+    font-size: 12px;
+    color: #72808c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
 }
