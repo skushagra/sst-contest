@@ -219,10 +219,6 @@ body {
 
 }
 
-.row {
-    display: flex;
-    justify-content: space-evenly;
-}
 
 .me ul {
     font-weight: 500;
@@ -230,6 +226,33 @@ body {
     color: #232323;
     font-size: 14px;
     display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    display: flex;
     flex-direction: column;
-    gap: 3rem;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-left: 20px;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-left: 20px;
+}
+
+.even-more-content {
+    font-weight: 500;
+    margin-top: 5%;
+    color: #232323;
+    font-size: 14px;
 }
