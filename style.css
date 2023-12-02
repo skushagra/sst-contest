@@ -100,7 +100,7 @@ body {
 }
 
 .hero-desc span {
-    color: red;
+    color: red
 }
 
 .socials {
@@ -250,7 +250,9 @@ body {
 .container3 {
     width: 100%;
     height: 100vh;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .res-cnt {
@@ -616,4 +618,41 @@ body {
   .cd {
     width: 80%;
     text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+  .holder {
+    display: flex;
+    justify-content: center;
+  }
+  .resume-container {
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+  }
+  .rcleft{
+    height: 100%;
+    width: 40%;
+  }
+  .rcright{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .prof-head {
+    font-size: 28px;
+  }
+  .prof-desc-1 {
+    margin-top: 5%;
   }
