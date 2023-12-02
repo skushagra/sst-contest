@@ -4,6 +4,9 @@
     box-sizing: border-box;
 
 }
+svg {
+    fill: #3d474e;
+}
 
 .container {
     background-image: url('./images/time\ pass.png');
@@ -62,6 +65,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 10px;
+    padding-left: 15px;
     gap: 1rem;
 }
