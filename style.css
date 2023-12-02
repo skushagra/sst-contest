@@ -114,3 +114,28 @@ body {
     gap: 2rem;
     margin-top: 10%;
 }
+
+.x:hover svg {
+    fill: black;
+    cursor: pointer;
+}
+
+.fb:hover svg {
+    fill: #3b5998;
+    cursor: pointer;
+}
+
+.insta:hover svg {
+    fill: #e4405f;
+    cursor: pointer;
+}
+
+.skype:hover svg {
+    fill: #4078c0;
+    cursor: pointer;
+}
+
+.linkedin:hover svg {
+    fill: #0e76a8;
+    cursor: pointer;
+}
